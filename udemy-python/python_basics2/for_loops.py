@@ -25,3 +25,5 @@ counter= 0
 for item in my_list:
   counter = counter + item
 print(counter)
+
+print(range(0 ,100))
