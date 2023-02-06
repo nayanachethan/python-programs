@@ -2,27 +2,27 @@
 # collection of items
 
 
-li = [1,2,3,4]
-li2 =['q','r','s']
-li3 = [1,2,'a',True]
+# li = [1,2,3,4]
+# li2 =['q','r','s']
+# li3 = [1,2,'a',True]
 
-# data structure
+# # data structure
 
-amazon_cart = ['notebooks','sunglasses']
-print(amazon_cart[0])
+# amazon_cart = ['notebooks','sunglasses']
+# print(amazon_cart[0])
 
-# list slicing
-amazon_cart = [ 
-    'notebooks',
-    'sunglasses',
-    'toys',
-    'fruits',
-]
-amazon_cart[1]= 'laptop'
-new_cart=amazon_cart[0:3]
-print(new_cart)
-amazon_cart[2]= 'grapes'
-print(amazon_cart)
+# # list slicing
+# amazon_cart = [ 
+#     'notebooks',
+#     'sunglasses',
+#     'toys',
+#     'fruits',
+# ]
+# amazon_cart[1]= 'laptop'
+# new_cart=amazon_cart[0:3]
+# print(new_cart)
+# amazon_cart[2]= 'grapes'
+# print(amazon_cart)
 
 #matrix
 #array inside array
@@ -79,17 +79,17 @@ basket= ['a','b','z','c','d','e','e','p']
 # print(basket)
 
 # print(list(range(1,100)))
-sentence= '   '
-new_sentence= sentence.join(['hi','my','is'])
-print(new_sentence)
+# sentence= '   '
+# new_sentence= sentence.join(['hi','my','is'])
+# print(new_sentence)
 
-# list unpacking
-a,b,c, *other, d =[1,2,3,4,5,6,7,8]
-print(a)
-print(b)
-print(c)
-print(other)
-print(d)
+# # list unpacking
+# a,b,c, *other, d =[1,2,3,4,5,6,7,8]
+# print(a)
+# print(b)
+# print(c)
+# print(other)
+# print(d)
 
 
 
