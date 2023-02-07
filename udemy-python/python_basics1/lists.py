@@ -61,10 +61,10 @@ print(matrix[0][1])
 # print(basket)
 
 basket= ['a','b','z','c','d','e','e','p']
-# print(basket.index('e',0,5))
-# # print(basket)
+print(basket.index('e',0,5))
+print(basket)
 
-# print('t' in basket)
+print('t' in basket)
 
 # print(basket.count('e'))
 # print(basket.sort())
