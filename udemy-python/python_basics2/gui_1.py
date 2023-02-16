@@ -15,16 +15,22 @@ picture = [
 #             print(' ', end='')
 #     print('')  
 
-# fill = '*' -   # different way of applying
-# empty = ''
-# for image in picture:
-#       for pixel in image:
-#         if (pixel):
-#             print(fill, end='')
-#         else:
-#             print(empty, end='')
-# print('')    
+fill = '*' 
+empty =''
+def show_tree():
+   for image in picture:
+    for pixel in image:
+     if (pixel):
+        print('*', end ="")
+    else:
+        print('', end  ="")
+    print('') 
+show_tree()
+show_tree()
+show_tree()
 
+
+ 
     # developer fundamentals
     #clean
     # readability
