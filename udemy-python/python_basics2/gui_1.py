@@ -16,15 +16,16 @@ picture = [
 #     print('')  
 
 fill = '*' 
-empty =''
+empty = ' '
+
 def show_tree():
-   for image in picture:
-    for pixel in image:
-     if (pixel):
-        print('*', end ="")
-    else:
-        print('', end  ="")
-    print('') 
+    for image in picture:
+        for pixel in image:
+            if (pixel):
+                print(fill, end ="")
+            else:
+                print(empty, end ="")
+        print(empty) 
 show_tree()
 show_tree()
 show_tree()

@@ -10,17 +10,7 @@
 
 #     print(duplicates)
 
-# parameters #arguements
-# Default parameters
-# def say_hello():
-#   print('helloooo')
 
-# say_hello()
-
-def say_hello(name,emoji):
-      print(f'helooooo {name} {emoji}')
-      
-say_hello('nayan',':)' )
 
 
 
