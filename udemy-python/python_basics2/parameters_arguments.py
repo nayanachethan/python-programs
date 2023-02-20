@@ -11,7 +11,7 @@
 # def say_hello(name,emoji):
 #       print(f'helooooo {name} {emoji}')
       
-# say_hello('nayan',':)' )
+# say_hello('nayan','😊' )
 
 # return 
 # def sum(num1, num2):
