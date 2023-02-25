@@ -1,7 +1,7 @@
 def highest_even(li):
     evens = []
     for i in li:
-        if i%2 == 0:
+        if i%2 == 0:  #!= not equal to
             evens.append(i)
     print(evens)
     return max(evens)  #try without max
